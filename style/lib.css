@@ -15,6 +15,20 @@
     margin: 0 auto;
 }
 
+.bg-green{
+    background-color: green !important;
+}
+
+.h-50{
+    height: 50px;
+}
+
+.h-25{
+    height: 25px;
+}
+
+
+
 .row {
     display: flex;
     flex-direction: row;
@@ -22,8 +36,43 @@
 }
 
 .pt-10{
-    padding-top: 10px;
+    padding-top: 20px;
 }
+
+.flex-start{
+    justify-content: start;
+}
+
+.flex-center{
+    justify-content: center;
+}
+
+.flex-end{
+    justify-content: end;
+}
+
+.flex-top{
+    align-items:start;
+}
+
+.flex-middle{
+    align-items:center;
+}
+
+.flex-bottom{
+    align-items:end;
+}
+
+.flex-around{
+    justify-content: space-around;
+}
+
+.flex-between{
+    justify-content: space-between;
+}
+
+
+
 
 .col{
     flex-grow: 1;
@@ -41,6 +90,7 @@
     background-color: blue;
     border: 1px solid white;
     color: white;
+    padding: 5px;
     text-align: center;
     min-height: 30px;
 }
